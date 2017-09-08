@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'abcd';
+    src: url('../fonts/BebasNeue.otf');
+}
+
+body {
+    background: url('../images/symphony.png');
+}
+
+header {
+    background-color: #333;
+    position:fixed;
+    height: 90px;
+    width: 100%;
+}
+.logo{
+	margin: 10px 30px 40px 30px;
+    position: fixed;
+    height: 75px;
+    width: 6%;
+}
+
+nav {
+    max-width: 950px;
+    padding: 0 20px;	
+	float: right;
+    margin: 55px 80px 0px 0px;
+}
+nav ul li {
+    /*float: right;*/
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'abcd';
+}
+.content{
+   height: 800px;
+    width: 900px;
+    background: url("../images/wall.jpg");
+    margin: auto;
+    padding-top: 120px;
+}
+.content .slider{
+	width: 80%;
+    box-shadow: 5px 3px 3px #999;
+    margin: 0  auto 40px auto;
+}
+.content .slider .gambar{
+	height: 50%;
+    width: 100%;
+}
+	
+.content img{
+	width: 100%;
+}
